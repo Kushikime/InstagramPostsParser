@@ -1,0 +1,75 @@
+html, body{
+	background:#DDDDDD;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	height: 100%;
+	background: url('background.jpeg') no-repeat fixed;
+}
+main{
+	background: rgba(0,0,0,0.7);
+	margin: 100px 200px;
+	padding: 60px 0;
+}
+#profileInfo{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	img{
+		max-width: 300px;
+		margin: 0 auto;
+		border-radius: 50%;
+		border: 2px solid white;
+	}
+	color: white;
+	.profileName{
+		margin: 16px 0;
+		font-size: 30px;
+		font-weight: 600;
+	}
+	.profileBio{
+		font-size: 26px;
+	}
+}
+
+#main{
+	color: white;
+	height: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	text-align: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding:50px 0;
+}
+
+.userItem{
+	background: rgba(0,0,0,0.6);
+	border-radius: 20px;
+	border: 1px solid transparent;
+	width: 280px;
+	max-height: 800px;
+	transition: 0.4s;
+	margin: 0 20px 80px;
+	&:hover{
+		transform: scale(1.2);
+	}
+	&__image{
+		max-width: 100%;
+		border-radius: 20px 20px 0px 0px;
+	}
+	&__description{
+		padding: 15px;
+		text-align: left;
+		word-wrap: break-word;
+	}
+}

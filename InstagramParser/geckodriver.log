@@ -1,0 +1,1024 @@
+1545646172996	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANNANE~1\\AppData\\Local\\Temp\\rust_mozprofile.OoH6iOhHAXHP"
+1545646174998	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545646174998	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545646183241	Marionette	INFO	Listening on port 50688
+1545646184234	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 524, Chrome_ChildThread] WARNING: pipe error: [Parent 11360, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 419: NS_ERROR_ILLEGAL_VALUE
+[Child 1392, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 419: NS_ERROR_ILLEGAL_VALUE
+[Child 1392, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/sr
+###!!! [Child][MessageChannel] Error: (msgtype=0x3000B8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+c/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11541545646195542	Marionette	INFO	Stopped listening on port 50688
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 10
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1545646225110	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANNANE~1\\AppData\\Local\\Temp\\rust_mozprofile.49CGvD4Mcxb4"
+1545646227215	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545646227215	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545646232176	Marionette	INFO	Listening on port 50729
+1545646232486	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[Parent 1168, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1458:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1458:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/layout.js:424:11\ngetGrids@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/layout.js:429:38\nhandler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1198:21\nonPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1313:15\nreceiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/child-transport.js:66:5\n"
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1458:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1458:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1458:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1458:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+JavaScript error: https://contextual.media.net/fcmdynet.js?&cid=8CUQBB2U5&cpcd=7xRa5ccNXLLzdohX57nd7w%3D%3D&crid=441289839&size=641x481&cc=UA&https=1&vif=0&requrl=https%3A%2F%2Fwww.guru99.com%2Fscroll-up-down-selenium-webdriver.html&kwrf=https%3A%2F%2Fwww.google.com&nse=3&vi=1545649222410224138&lw=1&ugd=4&insl=1, line 238: TypeError: _mNDetails._mNVI is undefined
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/2681653717913598117/index.js, line 590: TypeError: this.Play is not a function
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/webconsole/webconsole-output-wrapper.js, line 451: TypeError: store is null
+JavaScript error: https://www.learnpython.org/static/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0
+JavaScript error: https://www.learnpython.org/static/js/codemirror/codemirror.js, line 3262: TypeError: textarea is null
+console.error: "TypeError: this._selectedContainer is null: _onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:837:9\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this._selectedContainer is null: _onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:837:9
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this._selectedContainer is null: _onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:837:9\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this._selectedContainer is null: _onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:837:9
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this._selectedContainer is null: _onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:837:9\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this._selectedContainer is null: _onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:837:9
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this._selectedContainer is null: _onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:837:9\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this._selectedContainer is null: _onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:837:9
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this._selectedContainer is null: _onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:837:9\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this._selectedContainer is null: _onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:837:9
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this._selectedContainer is null: _onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:837:9\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this._selectedContainer is null: _onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:837:9
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/layout.js:424:11\ngetGrids@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/layout.js:429:38\nhandler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1198:21\nonPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1313:15\nreceiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/child-transport.js:66:5\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/layout.js:424:11\ngetGrids@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/layout.js:429:38\nhandler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1198:21\nonPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1313:15\nreceiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/child-transport.js:66:5\n"
+JavaScript error: chrome://global/content/bindings/browser.xml, line 1048: uncaught exception: 2147500033
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1630: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2000B,name=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1545660736669	Marionette	INFO	Stopped listening on port 50729
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+mon/ipc_channel_win.cc, line 346
+[Parent 9188, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1545653467990	Marionette	INFO	Stopped listening on port 53092
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+INFO	Listening on port 53136
+1545653244909	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 7028, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2484, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[Parent 2484, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2484, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 296, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chi[Child 4312, Chrold 296, Chrome_ChildTh[Parent 2484, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5080, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5081545653467307	Marionette	INFO	Stopped listening on port 53136
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8232, Chrome_ChildThread] WARNIN[Parent 9500, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1545653467307	Marionette	INFO	Stopped listening on port 53185
+ce://pdf.js/
+1545653454458	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+[GFX1-]: Failed to connect GPU process
+1545653475203	Marionette	INFO	Listening on port 53247
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x300059,name=PContent::Msg_ProvideAnonymousTemporaryFile) Closed channel: cannot send/recv
+
+1545653475329	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4632, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11536, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/[Parent 7648, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 7648, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11004, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11001545653546100	Marionette	INFO	Stopped listening on port 53247
+1545653665616	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANNANE~1\\AppData\\Local\\Temp\\rust_mozprofile.jAREudTGMvIe"
+1545653666514	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545653666514	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545653671203	Marionette	INFO	Listening on port 53368
+1545653671214	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: "getLayout@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:798:5\nhandler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1198:21\nonPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1313:15\nreceiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/child-transport.js:66:5\n"
+console.error: "Protocol error (unknownError): node is null"
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1458:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1458:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1458:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1458:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:867:26
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11\n_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30\n_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nhandleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:740:11
+_onShortcut@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:860:30
+_initShortcuts/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:791:35
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+handleEvent@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/key-shortcuts.js:263:9
+
+[Parent 3180, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 3180, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1545654464713	Marionette	INFO	Stopped listening on port 53368
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x4E0005,name=PImageBridge::Msg_WillClose) Channel error: cannot send/recv
+
+1545654838960	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANNANE~1\\AppData\\Local\\Temp\\rust_mozprofile.tJqATJMy4I9p"
+1545654841641	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545654841642	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545654848637	Marionette	INFO	Listening on port 58314
+1545654849064	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[Parent 7088, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7088, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11476, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11476, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/s[Parent 7088, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6648, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6648, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/ch1545655695322	Marionette	INFO	Stopped listening on port 58314
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+
+[Parent 9724, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7512, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346[Child 84
+48, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346[
+Child 7512, Chrome_ChildThread[Chil] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4C000D,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4C0005,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 9724, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1545655694241	Marionette	INFO	Stopped listening on port 58361
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+nt 11944, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11944, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5408, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5408, Chrome_[Parent 11944, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[C1545655693698	Marionette	INFO	Stopped listening on port 58409
+[GPU 1392, Chrome_ChildThread] WARNING: /src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3080, Ch[Parent 420, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1545655457792	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[Parent 420, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 420, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 420, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12304, Chrome_ChildThread] WARNING: pipe error: 109: f[Child ile z:/b12316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/commonu/ipc_channel_win.cc, line 346ild/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+[Child 12304, [Parent 420, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12676, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1267[Parent 420, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1545655693107	Marionette	INFO	Stopped listening on port 58463
+1545656229778	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANNANE~1\\AppData\\Local\\Temp\\rust_mozprofile.je8TUtH7zG8c"
+1545656231839	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545656231839	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545656236119	Marionette	INFO	Listening on port 58578
+1545656236490	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7844, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12676, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc[Child 12472, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/ch_channel_win.ccr,o mline 346e/common/ipc_channel_win.cc, line 346
+
+[Child 12472, Ch[Child 13220, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1321545656251062	Marionette	INFO	Stopped listening on port 58578
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[G
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1545656359839	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANNANE~1\\AppData\\Local\\Temp\\rust_mozprofile.YmoKM6gYh5mw"
+1545656360767	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545656360767	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545656365588	Marionette	INFO	Listening on port 58617
+1545656366004	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.instagram.com/static/bundles/metro/ConsumerCommons.js/c7b63024569c.js, line 183: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[Parent 516, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12572, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12572, Chrome_ChildT
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 12716, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chro[Parent 516, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5336, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5331545656455531	Marionette	INFO	Stopped listening on port 58617
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 63
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1545656467826	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANNANE~1\\AppData\\Local\\Temp\\rust_mozprofile.IdiqCyKG7Tns"
+1545656468634	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545656468634	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545656473026	Marionette	INFO	Listening on port 58675
+1545656473392	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.instagram.com/static/bundles/metro/ConsumerCommons.js/c7b63024569c.js, line 183: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+JavaScript error: chrome://browser/content/browser.js, line 7113: TypeError: browser.messageManager is undefined
+[Parent 2484, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2484, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2484, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1630: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 2484, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1545660707071	Marionette	INFO	Stopped listening on port 58675
+, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1545656602272	Marionette	INFO	Stopped listening on port 58723
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 2168,
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1545657928903	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANNANE~1\\AppData\\Local\\Temp\\rust_mozprofile.ZO4u3R8uHLXt"
+1545657930251	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545657930251	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545657940654	Marionette	INFO	Listening on port 58832
+[Child 812, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8121545657940760	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.instagram.com/static/bundles/metro/ConsumerCommons.js/c7b63024569c.js, line 183: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+[Child 12528, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12528, Chrome_ChildThrea[Parent 4736, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12700, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11545657962466	Marionette	INFO	Stopped listening on port 58832
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[G
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1545658032857	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANNANE~1\\AppData\\Local\\Temp\\rust_mozprofile.PX0ijBLGeDIE"
+1545658034633	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545658034633	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545658040167	Marionette	INFO	Listening on port 58909
+1545658040317	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 13088, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3180, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3180, Cconsole.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1630: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 13088, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1708, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1708, Chrome_ChildThr[Parent 13088, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6636, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1545660709259	Marionette	INFO	Stopped listening on port 58909
+omium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6300, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1636, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1636, C[Parent 6300, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1545658248094	Marionette	INFO	Stopped listening on port 58960
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[G1545659984134	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANNANE~1\\AppData\\Local\\Temp\\rust_mozprofile.Pzxw2mbiPdga"
+1545659986936	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545659986937	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545659996511	Marionette	INFO	Listening on port 59788
+1545659997147	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[Parent 10908, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10908, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5968, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build[P/arent 10908, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/pburocess_util_win.cc, line 188
+ild/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chil[Parent 10908, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1545660708027	Marionette	INFO	Stopped listening on port 59788
